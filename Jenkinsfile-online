@@ -6,6 +6,7 @@ pipeline {
   }
   environment {
     DOCKER_CREDENTIAL_ID = 'harbor-robot'
+    DOCKER_PASSWORD = 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTc2OTY2MDYsImlzcyI6ImhhcmJvci10b2tlbi1kZWZhdWx0SXNzdWVyIiwiaWQiOjIsInBpZCI6MiwiYWNjZXNzIjpbeyJSZXNvdXJjZSI6Ii9wcm9qZWN0LzIvcmVwb3NpdG9yeSIsIkFjdGlvbiI6InB1c2giLCJFZmZlY3QiOiIifSx7IlJlc291cmNlIjoiL3Byb2plY3Q'
     KUBECONFIG_CREDENTIAL_ID = 'kubeconfig'
     REGISTRY = '192.168.5.5:30012'
     DOCKERHUB_NAMESPACE = 'k8s-devops-harbor'
